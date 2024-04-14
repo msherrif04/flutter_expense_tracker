@@ -12,6 +12,11 @@ dependencies:
   cupertino_icons: ^1.0.6
   font_awesome_flutter: ^10.7.0
   fl_chart: ^0.67.0
+  flutter_colorpicker: ^1.0.3
+
+  expense_repository: 
+    path: packages/expense_repository
+
 
 dev_dependencies:
   flutter_test:
@@ -21,5 +26,5 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
-assests: 
-  -assets/
+  assets: 
+    - assets/
